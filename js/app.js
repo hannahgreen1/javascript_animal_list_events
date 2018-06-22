@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const selectResult = document.querySelector('#select-result');
         const readingList = document.querySelector('#reading-list');
-      readingList.textContent = ` ${title} ${author} ${category}`;
+      readingList.textContent = ` ${name} ${species} ${continent}`;
 
       form.reset();
     }
