@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const continent = form.continent.value;
 
         const selectResult = document.querySelector('#select-result');
-        const readingList = document.querySelector('#reading-list');
-      readingList.textContent = ` ${name} ${species} ${continent}`;
+        const animalList = document.querySelector('#animal-list');
+      animalList.textContent = ` ${name} ${species} ${continent}`;
 
       form.reset();
     }
